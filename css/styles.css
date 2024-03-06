@@ -67,9 +67,13 @@ main {
 
 
 .screen {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     width: 100%;
     height: 50px;
     border: solid 2px chocolate ;
     margin-bottom: 10px;
     border-radius: 2px;
+    font-size: 1.6rem;
 }
