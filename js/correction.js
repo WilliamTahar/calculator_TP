@@ -54,7 +54,7 @@ function onEqual()
     )
     screen.innerText = result.toString().includes('.') ? result.toFixed(4) : result
     operator = null
-    firstValue = result
+    firstValue = result + ''
     secondValue = ''
 }
 
